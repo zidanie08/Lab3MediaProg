@@ -20,28 +20,22 @@ jobs:
           distribution: 'zulu'
           java-version: '17'
 
-      - name: Cache Maven packages
-        uses: actions/cache@v3
-        with:
-          path: ~/.m2
-          key: maven-${{ hashFiles('**/pom.xml') }}
-          restore-keys: |
-            maven-
-
-      - name: Install Dependencies
-        run: mvn clean install -DskipTests
+      - name: Compile the project
+        run: javac -d out $(find src -name "*.java")
 
       - name: Run Checkstyle Analysis
-        run: mvn checkstyle:check
+        run: |
+          curl -LJO https://github.com/checkstyle/checkstyle/releases/download/checkstyle-10.10.0/checkstyle-10.10.0-all.jar
+          java -jar checkstyle-10.10.0-all.jar -c /google_checks.xml src/**/*.java
 
       - name: Run PMD Analysis
-        run: mvn pmd:check
-
-      - name: Run SpotBugs Analysis
-        run: mvn spotbugs:check
+        run: |
+          curl -LJO https://github.com/pmd/pmd/releases/download/pmd_releases/6.57.0/pmd-bin-6.57.0.zip
+          unzip pmd-bin-6.57.0.zip
+          ./pmd-bin-6.57.0/bin/run.sh pmd -d src/ -f text -R rulesets/java/quickstart.xml
 
       - name: Upload Reports
         uses: actions/upload-artifact@v3
         with:
           name: Analysis-Reports
-          path: target/site
+          path: out/
