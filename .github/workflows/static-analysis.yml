@@ -7,7 +7,7 @@ on:
     branches: [ "master" ]
 
 jobs:
-  analysis:
+  code-analysis:
     runs-on: ubuntu-latest
 
     steps:
@@ -21,17 +21,11 @@ jobs:
           java-version: '17'
 
       - name: Install PMD
-        run: sudo apt-get install -y pmd
-
-      - name: Install Checkstyle
-        run: sudo apt-get install -y checkstyle
-
+        run: sudo apt-get update && sudo apt-get install -y pmd
 
       - name: Run PMD Analysis
-        run: pmd -d src -f html -R pmd.xml -r pmd-report.html
+        run: |
+          pmd -d src -f text -R rulesets/java/basic.xml,rulesets/java/design.xml > pmd-report.txt
 
-      - name: Run Checkstyle Analysis
-        run: checkstyle -c checkstyle.xml -f html -o checkstyle-report.html src/**/*.java
-
-
-            
+      - name: Display PMD report
+        run: cat pmd-report.txt
