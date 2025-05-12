@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="423.0" prefWidth="686.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ControllerKuchen">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="281.0" layoutY="14.0" prefHeight="41.0" prefWidth="139.0" text="ADD KUCHEN">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="538.0" layoutY="123.0" text="Obst" />
+      <Button layoutX="274.0" layoutY="331.0" mnemonicParsing="false" onAction="#valider" prefHeight="41.0" prefWidth="139.0" text="ADD" />
+      <Label fx:id="info" alignment="CENTER" layoutX="-5.0" layoutY="351.0" prefHeight="49.0" prefWidth="675.0" textFill="#4db246" />
+      <TextField fx:id="haltbarkeit" layoutX="35.0" layoutY="210.0" prefHeight="31.0" prefWidth="203.0" />
+      <ComboBox fx:id="sorte" layoutX="480.0" layoutY="78.0" prefWidth="150.0" promptText="SORTE" />
+      <ComboBox fx:id="allergene" layoutX="53.0" layoutY="78.0" prefHeight="31.0" prefWidth="150.0" promptText="Allergene" />
+      <TextField fx:id="naehrwert" layoutX="446.0" layoutY="275.0" prefHeight="31.0" prefWidth="219.0" />
+      <TextField fx:id="preis" layoutX="31.0" layoutY="271.0" prefHeight="31.0" prefWidth="210.0" />
+      <Label layoutX="95.0" layoutY="181.0" prefHeight="17.0" prefWidth="67.0" text="Halbarkeit" />
+      <Label layoutX="115.0" layoutY="250.0" text="Preis" />
+      <Label layoutX="520.0" layoutY="250.0" text="Naehrwert" />
+      <TextField fx:id="name1" layoutX="446.0" layoutY="210.0" prefHeight="31.0" prefWidth="219.0" />
+      <TextField fx:id="name2" layoutX="446.0" layoutY="144.0" prefHeight="31.0" prefWidth="219.0" />
+      <Label layoutX="535.0" layoutY="181.0" text="Kreme" />
+      <ComboBox fx:id="herstellerBox" layoutX="274.0" layoutY="78.0" prefHeight="31.0" prefWidth="139.0" promptText="Hersteller" />
+      <Button fx:id="refreshHersteller" layoutX="315.0" layoutY="128.0" mnemonicParsing="false" onAction="#refreshHersteller" text="Refresh" />
+   </children>
+</AnchorPane>

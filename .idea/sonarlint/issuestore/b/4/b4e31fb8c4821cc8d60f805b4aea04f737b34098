@@ -1,0 +1,18 @@
+
+a	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Îœà$
+0
+java:S1220""Move this file to a named package.
+p
+java:S1450"ZRemove the "mockAutomat" field and declare it as a local variable in the relevant methods.(±š¦î
+R
+java:S1117&"<Rename "producer" which hides the field declared at line 20.(ê°–‘
+V
+java:S1117>";Rename "automat" which hides the field declared at line 19.(æğùúÿÿÿÿ
+^
+java:S3551B"IMake this method "synchronized" to match the parent class implementation.(Øµ–
+d
+java:S3551K"IMake this method "synchronized" to match the parent class implementation.(Ì„‡şÿÿÿÿ
+@
+java:S5960""+Remove this assertion from production code.(˜ÉW
+E
+java:S1068"/Remove this unused "mockAutomat" private field.(±š¦î

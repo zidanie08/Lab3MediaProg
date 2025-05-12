@@ -1,0 +1,29 @@
+
+j
+java:S1192‰"GDefine a constant instead of duplicating this literal "Fehler" 3 times.(¡»ó¬øÿÿÿÿ8§ÀÈ‚ê2
+r
+java:S1192’"UDefine a constant instead of duplicating this literal "file nicht gefunden." 3 times.(ôÖ,8¨ÀÈ‚ê2
+u
+java:S1104"SMake maxSize a static final constant or non-public and provide accessors if needed.(éÁÆ¨øÿÿÿÿ8ªÀÈ‚ê2
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ŞŸÜéûÿÿÿÿ8¬ÀÈ‚ê2
+M
+java:S1948-"0Make "kuchenProHersteller" private or transient.(¾ø’Ó8µÁÈ‚ê2
+j	java:S100*"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Üÿ»á8ÓÁÈ‚ê2
+G	java:S106O"+Replace this use of System.out by a logger.(¸Ô¥§8•ÂÈ‚ê2
+W	java:S125p"<This block of commented-out lines of code should be removed.(•Ó£W8æÁÈ‚ê2
+h
+java:S1124µ"EReorder the modifiers to comply with the Java Language Specification.(§ü‡ıÿÿÿÿ8ğÁÈ‚ê2
+c
+java:S1124Î"EReorder the modifiers to comply with the Java Language Specification.(Ü¬Ä8ûÁÈ‚ê2
+H	java:S106„"+Replace this use of System.out by a logger.(³á£8—ÂÈ‚ê2
+H	java:S106†"+Replace this use of System.out by a logger.(×‰ò8˜ÂÈ‚ê2
+M	java:S106‰"+Replace this use of System.out by a logger.(¡»ó¬øÿÿÿÿ8£ÂÈ‚ê2
+c
+java:S2147—"ECombine this catch with the one at line 276, which has the same body.(ıàÑÎ8šÂÈ‚ê2
+G	java:S106’"+Replace this use of System.out by a logger.(ôÖ,8¤ÂÈ‚ê2
+M	java:S106•"+Replace this use of System.out by a logger.(¡»ó¬øÿÿÿÿ8¥ÂÈ‚ê2
+M	java:S106˜"+Replace this use of System.out by a logger.(¡»ó¬øÿÿÿÿ8ªÂÈ‚ê2
+M	java:S106¢"+Replace this use of System.out by a logger.(¥˜›‚ùÿÿÿÿ8«ÂÈ‚ê2
+G	java:S106¤"+Replace this use of System.out by a logger.(ôÖ,8³ÂÈ‚ê2
+G	java:S106­"+Replace this use of System.out by a logger.(ôÖ,8‡ğÈ‚ê2
+X	java:S125³"<This block of commented-out lines of code should be removed.(½›®+8´ÂÈ‚ê2

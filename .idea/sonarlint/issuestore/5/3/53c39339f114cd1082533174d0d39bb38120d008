@@ -1,0 +1,49 @@
+
+E
+java:S3740%"/Provide the parametrized type for this generic.(¦ÀÔˆ
+»
+java:S6539"ŸSplit this â€œMonster Classâ€ into smaller and more specialized ones to reduce its dependencies on other classes from 21 to the maximum authorized 20 or less.(™ìıçÿÿÿÿÿ
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(™ìıçÿÿÿÿÿ
+0
+java:S1220""Move this file to a named package.
+Z
+java:S2583Ê"CChange this condition so that it does not always evaluate to "true"(¤âáó
+2
+java:S1116%"Remove this empty statement.(¦ÀÔˆ
+E	java:S106B"+Replace this use of System.err by a logger.(ïù¯¯ûÿÿÿÿ
+E	java:S106b"+Replace this use of System.out by a logger.(•¬‘çşÿÿÿÿ
+K
+java:S2209l"5Change this instance-reference to a static reference.(ÃÁâ©
+@	java:S106m"+Replace this use of System.out by a logger.(ù©ºç
+R
+java:S2696„"6Make the enclosing method "static" or remove this set.(«·‚Üøÿÿÿÿ
+Q
+java:S2209„"5Change this instance-reference to a static reference.(«·‚Üøÿÿÿÿ
+M
+java:S2696•"6Make the enclosing method "static" or remove this set.(µîš¿
+L
+java:S2209•"5Change this instance-reference to a static reference.(µîš¿
+F	java:S106ª"+Replace this use of System.err by a logger.(óØûÿÿÿÿ
+F	java:S106¬"+Replace this use of System.err by a logger.(šÚĞşøÿÿÿÿ
+F	java:S106¾"+Replace this use of System.out by a logger.(ŒÚÿ÷ÿÿÿÿÿ
+F	java:S106Á"+Replace this use of System.err by a logger.(ïù¯¯ûÿÿÿÿ
+F	java:S106É"+Replace this use of System.out by a logger.(÷æÓĞúÿÿÿÿ
+F	java:S106Î"+Replace this use of System.out by a logger.(ŒÚÿ÷ÿÿÿÿÿ
+F	java:S106Ø"+Replace this use of System.err by a logger.(ïù¯¯ûÿÿÿÿ
+F	java:S106æ"+Replace this use of System.out by a logger.(îß™÷ÿÿÿÿÿ
+F	java:S106ë"+Replace this use of System.out by a logger.(û“öáùÿÿÿÿ
+F	java:S106•"+Replace this use of System.out by a logger.(”üÅÿÿÿÿÿ
+F	java:S106œ"+Replace this use of System.out by a logger.(’ÒÊßúÿÿÿÿ
+M
+java:S2696¢"6Make the enclosing method "static" or remove this set.(º«¿
+A	java:S106¬"+Replace this use of System.out by a logger.(ıŠÒ·
+C
+java:S1128".Remove this unused import 'Modell.Kremkuchen'.(®â€_
+P
+java:S1128	"5Remove this unused import 'javafx.event.ActionEvent'.(î•¯¼ıÿÿÿÿ
+B
+java:S1128",Remove this unused import 'kuchen.Allergen'.(¹Ê•´
+G
+java:S1128"1Remove this unused import 'java.math.BigDecimal'.(êêŠ
+J
+java:S1128"/Remove this unused import 'java.time.Duration'.(ëá¯‰üÿÿÿÿ

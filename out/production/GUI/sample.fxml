@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="699.0" prefWidth="966.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllerGUI">
+    <children>
+        <Button fx:id="buttonAddKuchen" layoutX="143.0" layoutY="453.0" mnemonicParsing="false" onAction="#addKuchen" prefHeight="31.0" prefWidth="305.0" text="ADD Kuchen" />
+        <Button layoutX="144.0" layoutY="514.0" mnemonicParsing="false" onAction="#deleteKuchen" prefHeight="31.0" prefWidth="305.0" text="DELETE Kuchen" />
+        <Button layoutX="140.0" layoutY="572.0" mnemonicParsing="false" onAction="#inspektKuchen" prefHeight="31.0" prefWidth="312.0" text="INSPECT Kuchen" />
+        <Label fx:id="titel" layoutX="361.0" prefHeight="25.0" prefWidth="243.0" text="HTW BACKEREI" textFill="#07f2a7">
+            <font>
+                <Font size="30.0" />
+            </font></Label>
+        <Label fx:id="benachrichtigung" alignment="CENTER" layoutX="742.0" layoutY="49.0" prefHeight="40.0" prefWidth="99.0" text="HERSTELLER" textFill="#30bf8d">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Label>
+        <ListView fx:id="listKuchen" layoutX="42.0" layoutY="89.0" prefHeight="200.0" prefWidth="507.0" />
+        <ListView fx:id="listHersteller" layoutX="690.0" layoutY="89.0" prefHeight="200.0" prefWidth="200.0" />
+        <Button layoutX="135.0" layoutY="376.0" mnemonicParsing="false" onAction="#saveJBP" text="Save mit JBP" />
+        <Button layoutX="353.0" layoutY="376.0" mnemonicParsing="false" onAction="#saveJOS" text="Save mit JOS" />
+        <Label fx:id="info" alignment="CENTER" layoutX="526.0" layoutY="425.0" prefHeight="259.0" prefWidth="381.0" textFill="#6ab823">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Label>
+        <Button layoutX="692.0" layoutY="316.0" mnemonicParsing="false" onAction="#addHersteller" prefHeight="31.0" prefWidth="200.0" text="ADD Hersteller" />
+        <Button layoutX="690.0" layoutY="376.0" mnemonicParsing="false" onAction="#deleteHersteller" prefHeight="31.0" prefWidth="200.0" text="DELETE Hersteller" />
+      <ComboBox fx:id="kuchenMenu" layoutX="212.0" layoutY="49.0" onAction="#sortieren" prefHeight="31.0" prefWidth="194.0" promptText="Sortieren" />
+      <Label layoutX="40.0" layoutY="634.0" prefHeight="40.0" prefWidth="465.0">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Button layoutX="352.0" layoutY="316.0" mnemonicParsing="false" onAction="#loadJOS" text="Load mit JOS" />
+      <Button layoutX="134.0" layoutY="316.0" mnemonicParsing="false" onAction="#loadJBP" text="Load mit JBP" />
+    </children>
+</AnchorPane>

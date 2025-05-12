@@ -1,0 +1,12 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ø—ýìúÿÿÿÿ
+(
+java:S2176"Rename this class.(ûïƒÌ
+C
+java:S1128"-Remove this unused import 'DecoImpl.Belaege'.(°«ï£
+G
+java:S1128",Remove this unused import 'DecoImpl.Boeden'.(›…¡Õùÿÿÿÿ
+;
+java:S1128"%Remove this unused import 'java.awt'.(ï´µ©
+F
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ

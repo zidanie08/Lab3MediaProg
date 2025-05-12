@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="310.0" prefWidth="379.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ControllerHersteller">
+    <children>
+        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="120.0" layoutY="28.0" prefHeight="41.0" prefWidth="139.0" text="ADD HERSTELLER">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Label>
+        <TextField fx:id="name" layoutX="80.0" layoutY="118.0" prefHeight="31.0" prefWidth="219.0" />
+        <Label layoutX="170.0" layoutY="86.0" text="Name : " />
+        <Button layoutX="127.0" layoutY="182.0" mnemonicParsing="false" onAction="#valider" prefHeight="31.0" prefWidth="139.0" text="Valider" />
+        <Label fx:id="info" alignment="CENTER" layoutX="29.0" layoutY="225.0" prefHeight="49.0" prefWidth="321.0" textFill="#4db246" />
+    </children>
+</AnchorPane>

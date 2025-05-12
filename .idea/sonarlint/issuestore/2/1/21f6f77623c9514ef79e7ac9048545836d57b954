@@ -1,0 +1,13 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ø—ýìúÿÿÿÿ
+(
+java:S2176"Rename this class.(ÎÜí»
+w
+java:S1450"\Remove the "einfuegeDatum" field and declare it as a local variable in the relevant methods.(µØä¢üÿÿÿÿ
+T
+java:S5993"9Change the visibility of this constructor to "protected".(¦ñÁ¼ùÿÿÿÿ
+T
+java:S5993""9Change the visibility of this constructor to "protected".(•“˜¥øÿÿÿÿ
+Q	java:S125N"<This block of commented-out lines of code should be removed.(Ê¼¾¯
+L
+java:S1068"1Remove this unused "einfuegeDatum" private field.(µØä¢üÿÿÿÿ

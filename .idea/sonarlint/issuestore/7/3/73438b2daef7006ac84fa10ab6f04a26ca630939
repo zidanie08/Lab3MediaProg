@@ -1,0 +1,15 @@
+
+0
+java:S1220""Move this file to a named package.
+p
+java:S1450"URemove the "client" field and declare it as a local variable in the relevant methods.(ÁÉéªÿÿÿÿÿ
+K
+java:S2696"6Make the enclosing method "static" or remove this set.(›ér
+P
+java:S2209"5Change this instance-reference to a static reference.(©¬¨¶şÿÿÿÿ
+L
+java:S2696$"6Make the enclosing method "static" or remove this set.(¶Øáè
+A
+java:S5960"+Remove this assertion from production code.(…øï¾
+E
+java:S1068"*Remove this unused "client" private field.(ÁÉéªÿÿÿÿÿ
