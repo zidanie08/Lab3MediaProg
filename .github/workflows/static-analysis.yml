@@ -34,11 +34,4 @@ jobs:
         run: checkstyle -c checkstyle.xml -f html -o checkstyle-report.html src/**/*.java
 
 
-      - name: Archive analysis reports
-        uses: actions/upload-artifact@v2
-        with:
-          name: Code-Analysis-Reports
-          path: |
-            pmd-report.html
-            checkstyle-report.html
             
