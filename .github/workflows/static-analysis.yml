@@ -1,0 +1,44 @@
+name: Static Code Analysis
+
+on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+
+jobs:
+  analysis:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Java 17
+        uses: actions/setup-java@v3
+        with:
+          distribution: 'zulu'
+          java-version: '17'
+
+      - name: Install PMD
+        run: sudo apt-get install -y pmd
+
+      - name: Install Checkstyle
+        run: sudo apt-get install -y checkstyle
+
+
+      - name: Run PMD Analysis
+        run: pmd -d src -f html -R pmd.xml -r pmd-report.html
+
+      - name: Run Checkstyle Analysis
+        run: checkstyle -c checkstyle.xml -f html -o checkstyle-report.html src/**/*.java
+
+
+      - name: Archive analysis reports
+        uses: actions/upload-artifact@v3
+        with:
+          name: Code-Analysis-Reports
+          path: |
+            pmd-report.html
+            checkstyle-report.html
+            
